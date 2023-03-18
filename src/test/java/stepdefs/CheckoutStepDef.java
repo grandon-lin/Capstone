@@ -40,7 +40,7 @@ public class CheckoutStepDef {
 	
 	@Given("I login as a user")
 	public void i_login_as_a_user() {
-		driver.get("http://localhost:8080/medicare/login");
+		driver.get("http://localhost:8090/medicare/login");
 		driver.manage().window().maximize();
 	    driver.manage().timeouts().implicitlyWait(8000, TimeUnit.MILLISECONDS);
 	    loginPage.enterUsername("mediuser.tester@gmail.com");

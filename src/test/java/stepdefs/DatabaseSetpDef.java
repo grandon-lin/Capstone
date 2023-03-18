@@ -32,7 +32,7 @@ public class DatabaseSetpDef {
 	
 	@Given("I login as an admin")
 	public void i_login_as_an_admin() {
-		driver.get("http://localhost:8080/medicare/login");
+		driver.get("http://localhost:8090/medicare/login");
 		driver.manage().window().maximize();
 	    driver.manage().timeouts().implicitlyWait(8000, TimeUnit.MILLISECONDS);
 	    loginPage.enterUsername("vk@gmail.com");

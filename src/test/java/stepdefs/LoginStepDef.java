@@ -21,7 +21,7 @@ public class LoginStepDef {
 	
 	@Given("I have navigated to the login page")
 	public void i_have_navigated_to_the_login_page() {
-		driver.get("http://localhost:8080/medicare/login");
+		driver.get("http://localhost:8090/medicare/login");
 	    driver.manage().window().maximize();
 	    driver.manage().timeouts().implicitlyWait(8000, TimeUnit.MILLISECONDS);
 	}

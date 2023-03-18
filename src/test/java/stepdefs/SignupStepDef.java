@@ -23,20 +23,20 @@ public class SignupStepDef {
 	
 	@Given("I have navigated to the Sign Up page")
 	public void i_have_navigated_to_the_Sign_Up_page() {
-		driver.get("http://localhost:8080/medicare/membership");
+		driver.get("http://localhost:8090/medicare/membership");
 	    driver.manage().window().maximize();
 	    driver.manage().timeouts().implicitlyWait(8000, TimeUnit.MILLISECONDS);
 	}
 	
 	@When("I enter all the personal information as a user")
 	public void i_enter_all_the_personal_information_as_a_user() {
-	    signupPage.fillPersonalDataAsUser("Mediuser17", "Tester", "mediuser17.tester@gmail.com", "2476937459", "Abc123", "Abc123");
+	    signupPage.fillPersonalDataAsUser("Mediuser18", "Tester", "mediuser18.tester@gmail.com", "2476937459", "Abc123", "Abc123");
 	}
 	
 
 	@When("I enter all the personal information as a supplier")
 	public void i_enter_all_the_personal_information_as_a_supplier() {
-	    signupPage.fillPersonalDataAsAdmin("Mediadmin17", "Suppliertester", "mediadmin17.suppliertester@gmail.com", "4729532825", "Xyz123", "Xyz123");
+	    signupPage.fillPersonalDataAsAdmin("Mediadmin18", "Suppliertester", "mediadmin18.suppliertester@gmail.com", "4729532825", "Xyz123", "Xyz123");
 	}
 
 	@When("I click on Next-Billing button")

@@ -3,7 +3,7 @@ Feature: Checkout Feature Scenario
 	Background: 
 	Given I login as a user
 
-@checkout
+@test
 Scenario: Add a product to checkout and move on to order summary
 	When I select a category as "Antibiotics"
 	And I should land on the category page for "Antibiotics"

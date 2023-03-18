@@ -29,7 +29,7 @@ public class APICallStepDef {
 	 
 	public APICallStepDef() {
 		homePage = new HomePage(driver);
-		driver.get("http://localhost:8080/medicare/home");
+		driver.get("http://localhost:8090/medicare/home");
 		driver.manage().window().maximize();
 	    driver.manage().timeouts().implicitlyWait(8000, TimeUnit.MILLISECONDS);
 		Hooks.testName = "API Test";

@@ -3,6 +3,7 @@ Feature: Login Feature Scenario
 Background: 
     Given I have navigated to the login page
 
+@test
 Scenario Outline: This scenario is to define the login process as a user
 When I enter the correct email as "<Email>" and password as "<Password>"
 And I click on the Login button
@@ -13,6 +14,7 @@ Examples:
 	| Email			|	Password	|
 	|	kn@gmail.com	|	12345			|
 
+@test
 Scenario Outline: This scenario is to define the login process as an admin
 When I enter the correct email as "<Email>" and password as "<Password>"
 And I click on the Login button
