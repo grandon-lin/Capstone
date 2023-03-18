@@ -1,0 +1,423 @@
+[
+  {
+    "source": "I login as a user",
+    "steps": [
+      {
+        "name": "I login as a user",
+        "aggregatedDurations": {
+          "median": 0.5798757,
+          "average": 0.5798757
+        },
+        "durations": [
+          {
+            "duration": 0.5798757,
+            "location": "file:///C:/Grandon/Workspace/Capstone/Capstone_Project/src/test/java/features/Checkout.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I select a category as {string}",
+    "steps": [
+      {
+        "name": "I select a category as \"Antibiotics\"",
+        "aggregatedDurations": {
+          "median": 0.1682804,
+          "average": 0.1682804
+        },
+        "durations": [
+          {
+            "duration": 0.1682804,
+            "location": "file:///C:/Grandon/Workspace/Capstone/Capstone_Project/src/test/java/features/Checkout.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should land on the category page for {string}",
+    "steps": [
+      {
+        "name": "I should land on the category page for \"Antibiotics\"",
+        "aggregatedDurations": {
+          "median": 0.024428,
+          "average": 0.024428
+        },
+        "durations": [
+          {
+            "duration": 0.024428,
+            "location": "file:///C:/Grandon/Workspace/Capstone/Capstone_Project/src/test/java/features/Checkout.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on the view button for a product as {string}",
+    "steps": [
+      {
+        "name": "I click on the view button for a product as \"Amoxicillin\"",
+        "aggregatedDurations": {
+          "median": 0.2854084,
+          "average": 0.2854084
+        },
+        "durations": [
+          {
+            "duration": 0.2854084,
+            "location": "file:///C:/Grandon/Workspace/Capstone/Capstone_Project/src/test/java/features/Checkout.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should land on the product details page for {string}",
+    "steps": [
+      {
+        "name": "I should land on the product details page for \"Amoxicillin\"",
+        "aggregatedDurations": {
+          "median": 0.0309913,
+          "average": 0.0309913
+        },
+        "durations": [
+          {
+            "duration": 0.0309913,
+            "location": "file:///C:/Grandon/Workspace/Capstone/Capstone_Project/src/test/java/features/Checkout.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on the Add to Cart button",
+    "steps": [
+      {
+        "name": "I click on the Add to Cart button",
+        "aggregatedDurations": {
+          "median": 0.1871274,
+          "average": 0.1871274
+        },
+        "durations": [
+          {
+            "duration": 0.1871274,
+            "location": "file:///C:/Grandon/Workspace/Capstone/Capstone_Project/src/test/java/features/Checkout.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should land on the shopping cart page and display item for {string}",
+    "steps": [
+      {
+        "name": "I should land on the shopping cart page and display item for \"Amoxicillin\"",
+        "aggregatedDurations": {
+          "median": 0.0204138,
+          "average": 0.0204138
+        },
+        "durations": [
+          {
+            "duration": 0.0204138,
+            "location": "file:///C:/Grandon/Workspace/Capstone/Capstone_Project/src/test/java/features/Checkout.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Checkout button",
+    "steps": [
+      {
+        "name": "I click on Checkout button",
+        "aggregatedDurations": {
+          "median": 0.352071,
+          "average": 0.352071
+        },
+        "durations": [
+          {
+            "duration": 0.352071,
+            "location": "file:///C:/Grandon/Workspace/Capstone/Capstone_Project/src/test/java/features/Checkout.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should land on Select Shipping Address page",
+    "steps": [
+      {
+        "name": "I should land on Select Shipping Address page",
+        "aggregatedDurations": {
+          "median": 0.0197557,
+          "average": 0.0197557
+        },
+        "durations": [
+          {
+            "duration": 0.0197557,
+            "location": "file:///C:/Grandon/Workspace/Capstone/Capstone_Project/src/test/java/features/Checkout.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Select button",
+    "steps": [
+      {
+        "name": "I click on Select button",
+        "aggregatedDurations": {
+          "median": 0.1103452,
+          "average": 0.1103452
+        },
+        "durations": [
+          {
+            "duration": 0.1103452,
+            "location": "file:///C:/Grandon/Workspace/Capstone/Capstone_Project/src/test/java/features/Checkout.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should land on Payment Details page",
+    "steps": [
+      {
+        "name": "I should land on Payment Details page",
+        "aggregatedDurations": {
+          "median": 0.0268711,
+          "average": 0.0268711
+        },
+        "durations": [
+          {
+            "duration": 0.0268711,
+            "location": "file:///C:/Grandon/Workspace/Capstone/Capstone_Project/src/test/java/features/Checkout.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter the card number as {string}",
+    "steps": [
+      {
+        "name": "I enter the card number as \"5483239104832163\"",
+        "aggregatedDurations": {
+          "median": 0.0302413,
+          "average": 0.0302413
+        },
+        "durations": [
+          {
+            "duration": 0.0302413,
+            "location": "file:///C:/Grandon/Workspace/Capstone/Capstone_Project/src/test/java/features/Checkout.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter Expiry Date as {string} and {string}",
+    "steps": [
+      {
+        "name": "I enter Expiry Date as \"05\" and \"26\"",
+        "aggregatedDurations": {
+          "median": 0.072615,
+          "average": 0.072615
+        },
+        "durations": [
+          {
+            "duration": 0.072615,
+            "location": "file:///C:/Grandon/Workspace/Capstone/Capstone_Project/src/test/java/features/Checkout.feature:19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter CV Code as {string}",
+    "steps": [
+      {
+        "name": "I enter CV Code as \"694\"",
+        "aggregatedDurations": {
+          "median": 0.0360855,
+          "average": 0.0360855
+        },
+        "durations": [
+          {
+            "duration": 0.0360855,
+            "location": "file:///C:/Grandon/Workspace/Capstone/Capstone_Project/src/test/java/features/Checkout.feature:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Pay button",
+    "steps": [
+      {
+        "name": "I click on Pay button",
+        "aggregatedDurations": {
+          "median": 0.1497216,
+          "average": 0.1497216
+        },
+        "durations": [
+          {
+            "duration": 0.1497216,
+            "location": "file:///C:/Grandon/Workspace/Capstone/Capstone_Project/src/test/java/features/Checkout.feature:21"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I land on the Order Confirmation page",
+    "steps": [
+      {
+        "name": "I land on the Order Confirmation page",
+        "aggregatedDurations": {
+          "median": 0.0199824,
+          "average": 0.0199824
+        },
+        "durations": [
+          {
+            "duration": 0.0199824,
+            "location": "file:///C:/Grandon/Workspace/Capstone/Capstone_Project/src/test/java/features/Checkout.feature:22"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I have navigated to the login page",
+    "steps": [
+      {
+        "name": "I have navigated to the login page",
+        "aggregatedDurations": {
+          "median": 0.31380255,
+          "average": 0.31380255
+        },
+        "durations": [
+          {
+            "duration": 0.3146856,
+            "location": "file:///C:/Grandon/Workspace/Capstone/Capstone_Project/src/test/java/features/Login.feature:4"
+          },
+          {
+            "duration": 0.3129195,
+            "location": "file:///C:/Grandon/Workspace/Capstone/Capstone_Project/src/test/java/features/Login.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter the correct email as {string} and password as {string}",
+    "steps": [
+      {
+        "name": "I enter the correct email as \"kn@gmail.com\" and password as \"12345\"",
+        "aggregatedDurations": {
+          "median": 0.1036692,
+          "average": 0.1036692
+        },
+        "durations": [
+          {
+            "duration": 0.1036692,
+            "location": "file:///C:/Grandon/Workspace/Capstone/Capstone_Project/src/test/java/features/Login.feature:8"
+          }
+        ]
+      },
+      {
+        "name": "I enter the correct email as \"vk@gmail.com\" and password as \"admin\"",
+        "aggregatedDurations": {
+          "median": 0.0986121,
+          "average": 0.0986121
+        },
+        "durations": [
+          {
+            "duration": 0.0986121,
+            "location": "file:///C:/Grandon/Workspace/Capstone/Capstone_Project/src/test/java/features/Login.feature:19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on the Login button",
+    "steps": [
+      {
+        "name": "I click on the Login button",
+        "aggregatedDurations": {
+          "median": 0.15875675,
+          "average": 0.15875675
+        },
+        "durations": [
+          {
+            "duration": 0.1603121,
+            "location": "file:///C:/Grandon/Workspace/Capstone/Capstone_Project/src/test/java/features/Login.feature:9"
+          },
+          {
+            "duration": 0.1572014,
+            "location": "file:///C:/Grandon/Workspace/Capstone/Capstone_Project/src/test/java/features/Login.feature:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should land on the home page",
+    "steps": [
+      {
+        "name": "I should land on the home page",
+        "aggregatedDurations": {
+          "median": 0.0288782,
+          "average": 0.0288782
+        },
+        "durations": [
+          {
+            "duration": 0.029428,
+            "location": "file:///C:/Grandon/Workspace/Capstone/Capstone_Project/src/test/java/features/Login.feature:10"
+          },
+          {
+            "duration": 0.0283284,
+            "location": "file:///C:/Grandon/Workspace/Capstone/Capstone_Project/src/test/java/features/Login.feature:21"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should not see Manage Products",
+    "steps": [
+      {
+        "name": "I should not see Manage Products",
+        "aggregatedDurations": {
+          "median": 0.0445382,
+          "average": 0.0445382
+        },
+        "durations": [
+          {
+            "duration": 0.0445382,
+            "location": "file:///C:/Grandon/Workspace/Capstone/Capstone_Project/src/test/java/features/Login.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should see Manage Products",
+    "steps": [
+      {
+        "name": "I should see Manage Products",
+        "aggregatedDurations": {
+          "median": 0.0213141,
+          "average": 0.0213141
+        },
+        "durations": [
+          {
+            "duration": 0.0213141,
+            "location": "file:///C:/Grandon/Workspace/Capstone/Capstone_Project/src/test/java/features/Login.feature:22"
+          }
+        ]
+      }
+    ]
+  }
+]

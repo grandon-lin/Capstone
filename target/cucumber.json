@@ -1,0 +1,549 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5579875700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I login as a user",
+            "match": {
+              "location": "stepdefs.CheckoutStepDef.i_login_as_a_user()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-18T03:41:37.794Z",
+        "before": [
+          {
+            "result": {
+              "duration": 905040100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Add a product to checkout and move on to order summary",
+        "description": "",
+        "id": "checkout-feature-scenario;add-a-product-to-checkout-and-move-on-to-order-summary",
+        "after": [
+          {
+            "result": {
+              "duration": 520404700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5168280400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I select a category as \"Antibiotics\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Antibiotics\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefs.CheckoutStepDef.i_select_a_category_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24428000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should land on the category page for \"Antibiotics\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Antibiotics\"",
+                  "offset": 39
+                }
+              ],
+              "location": "stepdefs.CheckoutStepDef.i_should_land_on_the_category_page(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2285408400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on the view button for a product as \"Amoxicillin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Amoxicillin\"",
+                  "offset": 44
+                }
+              ],
+              "location": "stepdefs.CheckoutStepDef.i_click_on_the_view_button_for_a_product_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30991300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should land on the product details page for \"Amoxicillin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Amoxicillin\"",
+                  "offset": 46
+                }
+              ],
+              "location": "stepdefs.CheckoutStepDef.i_should_land_on_the_product_details_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2187127400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on the Add to Cart button",
+            "match": {
+              "location": "stepdefs.CheckoutStepDef.i_click_on_the_Add_to_Cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20413800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should land on the shopping cart page and display item for \"Amoxicillin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Amoxicillin\"",
+                  "offset": 61
+                }
+              ],
+              "location": "stepdefs.CheckoutStepDef.i_should_land_on_the_shopping_cart_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2352071000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on Checkout button",
+            "match": {
+              "location": "stepdefs.CheckoutStepDef.i_click_on_Checkout_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19755700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should land on Select Shipping Address page",
+            "match": {
+              "location": "stepdefs.CheckoutStepDef.i_should_land_on_Select_Shipping_Address_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2110345200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on Select button",
+            "match": {
+              "location": "stepdefs.CheckoutStepDef.i_click_on_Select_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26871100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I should land on Payment Details page",
+            "match": {
+              "location": "stepdefs.CheckoutStepDef.i_should_land_on_Payment_Details_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 30241300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter the card number as \"5483239104832163\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"5483239104832163\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepdefs.CheckoutStepDef.i_enter_the_card_number_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 72615000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I enter Expiry Date as \"05\" and \"26\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"05\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"26\"",
+                  "offset": 32
+                }
+              ],
+              "location": "stepdefs.CheckoutStepDef.i_enter_Expiry_Date_as_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 36085500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I enter CV Code as \"694\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"694\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepdefs.CheckoutStepDef.i_enter_CV_Code_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2149721600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click on Pay button",
+            "match": {
+              "location": "stepdefs.CheckoutStepDef.i_click_on_Pay_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19982400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I land on the Order Confirmation page",
+            "match": {
+              "location": "stepdefs.CheckoutStepDef.i_land_on_the_Order_Confirmation_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Checkout Feature Scenario",
+    "description": "",
+    "id": "checkout-feature-scenario",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Checkout.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 314685600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have navigated to the login page",
+            "match": {
+              "location": "stepdefs.LoginStepDef.i_have_navigated_to_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-18T03:42:01.389Z",
+        "before": [
+          {
+            "result": {
+              "duration": 516545000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "This scenario is to define the login process as a user",
+        "description": "",
+        "id": "login-feature-scenario;this-scenario-is-to-define-the-login-process-as-a-user;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 170473000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 103669200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter the correct email as \"kn@gmail.com\" and password as \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kn@gmail.com\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"12345\"",
+                  "offset": 60
+                }
+              ],
+              "location": "stepdefs.LoginStepDef.i_enter_the_correct_email_as_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 160312100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on the Login button",
+            "match": {
+              "location": "stepdefs.LoginStepDef.i_click_on_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29428000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should land on the home page",
+            "match": {
+              "location": "stepdefs.LoginStepDef.i_should_land_on_the_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8044538200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should not see Manage Products",
+            "match": {
+              "location": "stepdefs.LoginStepDef.i_should_not_see_Manage_Products()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 312919500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have navigated to the login page",
+            "match": {
+              "location": "stepdefs.LoginStepDef.i_have_navigated_to_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-18T03:42:10.744Z",
+        "before": [
+          {
+            "result": {
+              "duration": 541497200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "This scenario is to define the login process as an admin",
+        "description": "",
+        "id": "login-feature-scenario;this-scenario-is-to-define-the-login-process-as-an-admin;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 180226400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 98612100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I enter the correct email as \"vk@gmail.com\" and password as \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vk@gmail.com\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"admin\"",
+                  "offset": 60
+                }
+              ],
+              "location": "stepdefs.LoginStepDef.i_enter_the_correct_email_as_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 157201400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on the Login button",
+            "match": {
+              "location": "stepdefs.LoginStepDef.i_click_on_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28328400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I should land on the home page",
+            "match": {
+              "location": "stepdefs.LoginStepDef.i_should_land_on_the_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 21314100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I should see Manage Products",
+            "match": {
+              "location": "stepdefs.LoginStepDef.i_should_see_Manage_Products()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature Scenario",
+    "description": "",
+    "id": "login-feature-scenario",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Login.feature",
+    "tags": []
+  }
+]
