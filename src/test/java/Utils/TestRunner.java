@@ -1,9 +1,14 @@
 package Utils;
 
+import org.junit.AfterClass;
+import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
+
+import com.relevantcodes.extentreports.ExtentReports;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
+import stepdefs.Hooks;
 
 @RunWith(Cucumber.class)
 
@@ -12,10 +17,20 @@ import io.cucumber.junit.CucumberOptions;
 		monochrome = true,
 		features = "src/test/java/features",
 		glue = "stepdefs",
-		plugin = {"pretty", "html:target/html-cucumber", "json:target/cucumber.json", "usage:target/cucumber-usage.json", "junit:target/cucumber-result.xml"},
+		plugin = {"pretty", "html:target/html-cucumber", "json:target/cucumber.json"},
 		tags = {"@test or @sanity"}
 )
 
 public class TestRunner {
-
+	
+	@BeforeClass
+	public static void initiate() {
+		Hooks.report = new ExtentReports("ExtentReport.html");
+	}
+	
+	@AfterClass
+	public static void cleanUp() {
+		Hooks.report.flush();
+		Hooks.report.close();
+	}
 }

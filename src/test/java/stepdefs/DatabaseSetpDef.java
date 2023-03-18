@@ -3,8 +3,8 @@ package stepdefs;
 import java.sql.SQLException;
 import java.util.concurrent.TimeUnit;
 
+import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
-import org.testng.Assert;
 
 import Utils.DBUtils;
 import io.cucumber.java.en.Given;
@@ -27,7 +27,6 @@ public class DatabaseSetpDef {
 		loginPage = new LoginPage(driver);
 		homePage = new HomePage(driver);
 		productManagementPage = new ProductManagementPage(driver);
-		Hooks.testName = "Database Test";
 	}
 	
 	@Given("I login as an admin")

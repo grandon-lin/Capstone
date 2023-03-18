@@ -35,7 +35,6 @@ public class CheckoutStepDef {
 		checkoutAddressPage = new CheckoutAddressPage(driver);
 		paymentDetailsPage = new PaymentDetailsPage(driver);
 		orderSummaryPage = new OrderSummaryPage(driver);
-		Hooks.testName = "Checkout Test";
 	}
 	
 	@Given("I login as a user")

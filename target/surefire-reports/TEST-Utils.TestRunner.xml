@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="TestSuite" time="0.002" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="Utils.TestRunner" time="31.032" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.17+10-LTS-269"/>
@@ -65,5 +65,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.simplilearn.Capstone_Project.AppTest" name="testApp on testApp(com.simplilearn.Capstone_Project.AppTest)" time="0.002"/>
+  <testcase classname="Checkout Feature Scenario" name="Add a product to checkout and move on to order summary" time="20.248"/>
+  <testcase classname="Login Feature Scenario" name="This scenario is to define the login process as a user" time="9.409"/>
+  <testcase classname="Login Feature Scenario" name="This scenario is to define the login process as an admin" time="1.375"/>
 </testsuite>

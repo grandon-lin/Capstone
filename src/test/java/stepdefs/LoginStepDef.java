@@ -15,7 +15,6 @@ public class LoginStepDef {
 	LoginPage loginPage;
 	
 	public LoginStepDef() {
-		Hooks.testName = "Login Test";
 		loginPage = new LoginPage(driver);
 	}
 	
