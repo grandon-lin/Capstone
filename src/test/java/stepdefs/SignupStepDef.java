@@ -30,13 +30,13 @@ public class SignupStepDef {
 	
 	@When("I enter all the personal information as a user")
 	public void i_enter_all_the_personal_information_as_a_user() {
-	    signupPage.fillPersonalDataAsUser("Mediuser18", "Tester", "mediuser18.tester@gmail.com", "2476937459", "Abc123", "Abc123");
+	    signupPage.fillPersonalDataAsUser("Mediuser19", "Tester", "mediuser19.tester@gmail.com", "2476937459", "Abc123", "Abc123");
 	}
 	
 
 	@When("I enter all the personal information as a supplier")
 	public void i_enter_all_the_personal_information_as_a_supplier() {
-	    signupPage.fillPersonalDataAsAdmin("Mediadmin18", "Suppliertester", "mediadmin18.suppliertester@gmail.com", "4729532825", "Xyz123", "Xyz123");
+	    signupPage.fillPersonalDataAsAdmin("Mediadmin19", "Suppliertester", "mediadmin19.suppliertester@gmail.com", "4729532825", "Xyz123", "Xyz123");
 	}
 
 	@When("I click on Next-Billing button")
