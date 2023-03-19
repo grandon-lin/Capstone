@@ -23,14 +23,4 @@ import stepdefs.Hooks;
 
 public class TestRunner {
 	
-	@BeforeClass
-	public static void initiate() {
-		Hooks.report = new ExtentReports("ExtentReport.html");
-	}
-	
-	@AfterClass
-	public static void cleanUp() {
-		Hooks.report.flush();
-		Hooks.report.close();
-	}
 }

@@ -16,7 +16,7 @@ import io.cucumber.java.Before;
 public class Hooks {
 	public static WebDriver driver;
 	public static String categoryName = null;
-	private static int counter = 0;
+	public static int counter = 0;
 	public static ExtentReports report;
 	public static ExtentTest test;
 	
@@ -25,6 +25,7 @@ public class Hooks {
 	{
 		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 		driver = new ChromeDriver();
+		report = new ExtentReports("ExtentReport" + counter + ".html");
 		counter++;
 		test = report.startTest("Test" + counter);
 		test.log(LogStatus.INFO, "Test " + counter + " Starting...........");
@@ -32,10 +33,12 @@ public class Hooks {
 	
 	@After
 	public void TearDown() throws ClassNotFoundException, SQLException {
-		cleanUp();
+		cleanup();
+		report.flush();
+		report.close();
 	}
 	
-	public void cleanUp() throws ClassNotFoundException, SQLException {
+	private void cleanup() throws ClassNotFoundException, SQLException {
 		DBUtils dbutils = new DBUtils();
 
 		if(categoryName != null) {
