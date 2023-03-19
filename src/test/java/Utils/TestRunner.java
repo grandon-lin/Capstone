@@ -1,14 +1,8 @@
 package Utils;
 
-import org.junit.AfterClass;
-import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
-
-import com.relevantcodes.extentreports.ExtentReports;
-
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
-import stepdefs.Hooks;
 
 @RunWith(Cucumber.class)
 
