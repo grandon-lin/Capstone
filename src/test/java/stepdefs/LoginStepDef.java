@@ -23,6 +23,7 @@ public class LoginStepDef {
 		driver.get("http://localhost:8090/medicare/login");
 	    driver.manage().window().maximize();
 	    driver.manage().timeouts().implicitlyWait(8000, TimeUnit.MILLISECONDS);
+	    
 	}
 
 	@When("I enter the correct email as {string} and password as {string}")
